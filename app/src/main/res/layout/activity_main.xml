@@ -22,9 +22,15 @@
 
             <TextView
                 android:id="@+id/card_title_text"
-                android:layout_width="271dp"
-                android:layout_height="match_parent"
-                android:text="TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:text="Småsten & Block"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/card_title_image"
                 tools:layout_editor_absoluteX="109dp" />
 
             <ImageView
