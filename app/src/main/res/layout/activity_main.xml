@@ -73,18 +73,18 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:textAlignment="center"
-                    android:text="Vaaa..heter du något?"
+                    android:text="Log in"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/hero_image" />
 
                 <EditText
                     android:id="@+id/sign_in"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAlignment="center"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:text="Name"
+                    android:text="Användarnamn"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/card_body_text" />
 
